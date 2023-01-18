@@ -58,7 +58,7 @@ a, a:hover {
 }
 
 .smartmovie-card {
-    width: 360px;
+    width: 100%;
 }
 
 #smartmovie-card-list {
@@ -67,6 +67,7 @@ a, a:hover {
 
 .smartmovie-card img {
     border-radius: 8px 8px 0 0;
+    height: 196.75px;
     width: 100%;
 }
 
@@ -76,13 +77,16 @@ a, a:hover {
     border-radius: 0 0 8px 8px;
     display: flex;
     flex-direction: column;
-    padding: 10px 0 20px 0;
+    justify-content: space-between;
+    min-height: 150px;
+    padding: 10px 20px 20px 20px;
 }
 
 .smartmovie-card-description h3 {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .smartmovie-btn, .smartmovie-btn:hover {
