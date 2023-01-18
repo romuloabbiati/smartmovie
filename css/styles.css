@@ -2,8 +2,9 @@
 
 :root {
     --bg-grey: #E8E8E8;
+    --text-grey: #4A4A4A;
     --color-primary: #4D41C0;
-    --main-bg: #fff;
+    --white: #fff;
 }
 
 * {
@@ -36,7 +37,7 @@ nav a {
 
 header {
     background-color: var(--color-primary);
-    color: var(--main-bg);
+    color: var(--white);
     display: flex;
     align-items: center;
     height: 60px;
@@ -54,4 +55,43 @@ a, a:hover {
 
 .smartmovie-contact-container img {
     margin-right: 10px;
+}
+
+.smartmovie-card {
+    width: 360px;
+}
+
+#smartmovie-card-list {
+    padding: 40px 0;
+}
+
+.smartmovie-card img {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+}
+
+.smartmovie-card-description {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 20px 0;
+}
+
+.smartmovie-card-description h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.smartmovie-btn, .smartmovie-btn:hover {
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    color: var(--white);
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 180px;
 }
