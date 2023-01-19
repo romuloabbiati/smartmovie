@@ -28,9 +28,28 @@
                 <div>
                     <div class="smartmovie-card">
                         <img src="https://blog.playstation.com/tachyon/2022/06/0c3c20a8d8514501524a0859461f391572ea6e61.jpg" alt="Spider-Man">
-                        <div class="smartmovie-card-description">
+                        <div class="smartmovie-form-description">
                             <h3>Spider-Man</h3>
-                            <a class="smartmovie-btn" href="index.html">Cancel</a>
+                            <form class="smartmovie-form">
+                                <div class="form-group smartmovie-form-group">
+                                    <label for="email">Enter your e-mail address</label>
+                                    <input class="form-control" type="email" id="email">
+                                </div>
+                                <div class="form-group smartmovie-form-group">
+                                    <label for="score">Enter your rating</label>
+                                    <select class="form-control" name="score" id="score">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </form>
+                            <div class="smartmovie-form-btn-container">
+                                <button class="smartmovie-btn" type="submit">Save</button>
+                                <a class="smartmovie-btn" href="index.html">Cancel</a>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -5,6 +5,7 @@
     --text-grey: #4A4A4A;
     --color-primary: #4D41C0;
     --white: #fff;
+    --text-light-grey: #AAA;
 }
 
 * {
@@ -98,9 +99,48 @@ a, a:hover {
     height: 40px;
     justify-content: center;
     width: 180px;
+    border: 0;
 }
 
 .dsmovie-form-container {
     padding: 40px 0;
     max-width: 480px;
+}
+
+/* FORM */
+
+.smartmovie-form-description {
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.smartmovie-form-description h3 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.smartmovie-form {
+    width: 100%;
+}
+
+.smartmovie-form-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.smartmovie-form-group {
+    margin-bottom: 20px;
+}
+
+.smartmovie-form-group label {
+    font-size: 12px;
+    color: var(--text-light-grey);
 }
