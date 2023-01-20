@@ -65,7 +65,7 @@ a, a:hover {
 }
 
 #smartmovie-card-list {
-    padding: 40px 0;
+    padding: 40px 10px;
 }
 
 .smartmovie-card img {
@@ -82,13 +82,13 @@ a, a:hover {
     flex-direction: column;
     justify-content: space-between;
     padding: 10px 20px 20px 20px;
-    min-height: 220px;
+    min-height: 190px;
 }
 
 .smartmovie-card-description h3 {
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -133,6 +133,14 @@ a, a:hover {
     padding: 40px 0;
     max-width: 480px;
 }
+
+/* .terminator-salvation-img-height {
+    height: 172.44px;
+} */
+
+/* .terminator-salvation-fix {
+    height: 200.02;
+} */
 
 /* FORM */
 
