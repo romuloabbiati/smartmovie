@@ -65,7 +65,7 @@ a, a:hover {
 }
 
 #smartmovie-card-list {
-    padding: 40px 10px;
+    padding: 0 10px;
 }
 
 .smartmovie-card img {
@@ -132,6 +132,53 @@ a, a:hover {
 .smartmovie-form-container {
     padding: 40px 0;
     max-width: 480px;
+}
+
+.smartmovie-pagination-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.smartmovie-pagination-box {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.smartmovie-pagination-box p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-primary);
+}
+
+.smartmovie-pagination-box button {
+    background-color: var(--white);
+    height: 40px;
+    width: 40px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smartmovie-pagination-box button:disabled {
+    border: 1px solid var(--text-light-grey);
+}
+
+.smartmovie-flip-horizontal {
+    transform: rotate(180deg);
+}
+
+.smartmovie-pagination-box button img {
+    filter: brightness(0) saturate(100%) invert(22%) sepia(29%) saturate(5247%) hue-rotate(235deg) brightness(101%) contrast(89%);
+}
+
+.smartmovie-pagination-box button:disabled img {
+    filter: unset;
 }
 
 /* .terminator-salvation-img-height {
